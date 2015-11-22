@@ -1,5 +1,9 @@
 #!/bin/bash
 
+cd $CLAW/apps
+git checkout master
+git pull upstream master
+git push -u origin master
 cd $CLAW/amrclaw
 git checkout master
 git pull upstream master

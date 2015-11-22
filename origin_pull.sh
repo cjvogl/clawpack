@@ -1,5 +1,8 @@
 #!/bin/bash
 
+cd $CLAW/apps
+git checkout master
+git pull
 cd $CLAW/amrclaw
 git checkout master
 git pull
